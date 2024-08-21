@@ -5,8 +5,7 @@ let input = undefined;
 while (true) {
   input  = prompt(`Please enter a natural number:`);
   input = Number(input);
-  if(!isNaN(input) || input < 1)
-  {
+  if(!isNaN(input) || input < 1) {
     input = Math.floor(input);
     break;
   }
